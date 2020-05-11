@@ -6,3 +6,7 @@ h1, h2 {
   color: navy;
   text-align: center;
 }
+
+.image {
+    max-width: 250px;
+}
