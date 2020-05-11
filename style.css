@@ -11,6 +11,14 @@ h1, h2 {
     max-width: 250px;
 }
 
+.bookouter {
+    display: inline;
+}
+
+.bookinner {
+    display: inline-grid;
+}
+
 #menu {
     font-size: 25px;
     margin-right: 25px;
