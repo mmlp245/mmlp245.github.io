@@ -10,3 +10,12 @@ h1, h2 {
 .image {
     max-width: 250px;
 }
+
+#menu {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+#introtext, #homeimg, #booksbody {
+    text-align: center;
+}
