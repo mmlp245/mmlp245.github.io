@@ -1,9 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-color: white;
+  min-height: 100%;
+  margin: auto;
+  background-image: linear-gradient(to bottom right, white, gray);
 }
 
 h1, h2 {
-  color: navy;
   text-align: center;
 }
 
@@ -21,9 +26,15 @@ h1, h2 {
     max-width: 250px;
 }
 
+.curpage {
+    font-weight: bold;
+}
+
 #menu {
     font-size: 25px;
     margin-bottom: 35px;
+    background-color: #a60000;
+    padding: 20px;
 }
 
 #menu > a {
@@ -32,11 +43,16 @@ h1, h2 {
 
 #introtext, #homeimg, #booksbody {
     text-align: center;
+    font-size: large;
 }
 
 #aboutinfo {
     float: left;
-    margin-right: 50px;
-    width: 250px;
+    margin-left: 50px;
+    width: 500px;
+}
+
+#aboutimg {
+    float: left;
 }
 
