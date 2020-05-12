@@ -1,6 +1,6 @@
-html {
+/*html {
   height: 100%;
-}
+}*/
 
 body {
   min-height: 100%;
@@ -37,8 +37,9 @@ h1, h2 {
     padding: 20px;
 }
 
-#menu > a {
+#menu > a, .curpage {
     margin-right: 25px;
+    color: #e6e6e6;
 }
 
 #introtext, #homeimg, #booksbody {
