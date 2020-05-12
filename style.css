@@ -8,15 +8,17 @@ h1, h2 {
 }
 
 .image {
-    max-width: 250px;
+    max-height: 385px;
 }
 
 .bookouter {
     display: inline;
+    margin: 50px;
 }
 
 .bookinner {
     display: inline-grid;
+    max-width: 250px;
 }
 
 #menu {
