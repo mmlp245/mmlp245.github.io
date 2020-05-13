@@ -22,12 +22,12 @@ h1, h2 {
 
 .bookouter {
     display: inline;
-    margin: 50px;
 }
 
 .bookinner {
     display: inline-grid;
     max-width: 250px;
+    padding: 15px 50px;
 }
 
 .curpage {
@@ -54,7 +54,7 @@ h1, h2 {
 #aboutinfo {
     float: left;
     margin-left: 50px;
-    width: 500px;
+    max-width: 500px;
     font-size: large;
 }
 
