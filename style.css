@@ -91,6 +91,8 @@ max-height: 398px;
 #infobody {
   background: #f1f1f1;
   padding: 15px;
+  width: max-content;
+  margin-left: 15px;
 }
 
 #aboutinfo {
@@ -104,6 +106,15 @@ max-height: 398px;
 #aboutimg {
     float: left;
     margin-left: 25px;
+}
+
+#profile {
+  overflow: auto;
+}
+
+#aboutlinks > a {
+    display: block;
+    margin-left: 20px;
 }
 
  /* Style inputs with type="text", select elements and textareas */
