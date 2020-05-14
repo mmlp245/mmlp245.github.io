@@ -1,13 +1,19 @@
+@font-face {
+  font-family: "Assistant";
+  src: url("Assistant/Assistant-SemiBold.ttf");
+}
+
 html, body {
   min-height: 100%;
 }
 
 body {
   margin: auto;
-  background-image: url("img/pexels-photo-filtered_2.jpeg");
+  background-image: url("img/pexels-photo-filtered_3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  font-family: "Assistant", Helvetica, Verdana, sans-serif;
 }
 /*background-image: linear-gradient(to bottom right, white, gray);*/
 
@@ -48,8 +54,9 @@ h1, h2 {
 #menu {
     font-size: 25px;
     margin-bottom: 35px;
-    background-color: #a2a2a2;
+    background-color: #3c3c3c;
     padding: 20px;
+    opacity: 0.7;
 }
 /*#a60000;*/
 
