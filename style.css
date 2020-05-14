@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 
@@ -69,6 +70,10 @@ max-height: 398px;
     font-weight: bold;
 }
 
+.booklink {
+  margin-top:5px;
+}
+
 #menu {
     font-size: 25px;
     margin-bottom: 35px;
@@ -93,6 +98,7 @@ max-height: 398px;
   padding-left: 15px;
   width: max-content;
   margin-left: 15px;
+  border-radius: 10px;
 }
 
 #aboutinfo {
