@@ -17,7 +17,12 @@ body {
 }
 /*background-image: linear-gradient(to bottom right, white, gray);*/
 
-h1, h2 {
+h1 {
+  text-align: left;
+  margin-left: 25px;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -28,6 +33,10 @@ max-height: 398px;
 */
 .image {
     max-height: 385px;
+}
+
+#profileimg {
+  max-height: 250px;
 }
 
 .book .image {
@@ -79,7 +88,7 @@ max-height: 398px;
     font-size: large;
 }
 
-#aboutbio {
+#infobody {
   background: #f1f1f1;
   padding: 15px;
 }
