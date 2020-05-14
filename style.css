@@ -21,8 +21,17 @@ h1, h2 {
   text-align: center;
 }
 
+
+/*
+FOR DARK MIND
+max-height: 398px;
+*/
 .image {
     max-height: 385px;
+}
+
+.book .image {
+  padding: 0 30px 30px 30px;
 }
 
 .icon {
@@ -68,6 +77,11 @@ h1, h2 {
 #introtext, #homeimg, #booksbody {
     text-align: center;
     font-size: large;
+}
+
+#aboutbio {
+  background: #f1f1f1;
+  padding: 5px;
 }
 
 #aboutinfo {
