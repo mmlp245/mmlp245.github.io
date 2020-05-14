@@ -72,9 +72,8 @@ max-height: 398px;
 #menu {
     font-size: 25px;
     margin-bottom: 35px;
-    background-color: #3c3c3c;
+    background-color: rgb(60, 60, 60, 0.7);
     padding: 20px;
-    opacity: 0.7;
 }
 /*#a60000;*/
 
@@ -89,8 +88,9 @@ max-height: 398px;
 }
 
 #infobody {
-  background: #f1f1f1;
-  padding: 15px;
+  background-color: rgba(241, 241, 241, 0.7);
+  padding: 50px 50px 50px 15px;
+  padding-left: 15px;
   width: max-content;
   margin-left: 15px;
 }
@@ -110,6 +110,10 @@ max-height: 398px;
 
 #profile {
   overflow: auto;
+}
+
+#aboutlinks {
+  margin-top: 15px;
 }
 
 #aboutlinks > a {
