@@ -4,8 +4,12 @@ html, body {
 
 body {
   margin: auto;
-  background-image: linear-gradient(to bottom right, white, gray);
+  background-image: url("img/pexels-photo-filtered_2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+/*background-image: linear-gradient(to bottom right, white, gray);*/
 
 h1, h2 {
   text-align: center;
@@ -30,6 +34,13 @@ h1, h2 {
     padding: 15px 50px;
 }
 
+.blurb {
+  display: inline;
+  position: absolute;
+  font-size: large;
+  margin-left: 25px;
+}
+
 .curpage {
     font-weight: bold;
 }
@@ -37,9 +48,10 @@ h1, h2 {
 #menu {
     font-size: 25px;
     margin-bottom: 35px;
-    background-color: #a60000;
+    background-color: #a2a2a2;
     padding: 20px;
 }
+/*#a60000;*/
 
 #menu > a, .curpage {
     margin-right: 25px;
@@ -54,6 +66,7 @@ h1, h2 {
 #aboutinfo {
     float: left;
     margin-left: 50px;
+    margin-right: 15px;
     max-width: 500px;
     font-size: large;
 }
