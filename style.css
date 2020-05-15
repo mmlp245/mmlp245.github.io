@@ -64,6 +64,7 @@ max-height: 398px;
   position: absolute;
   font-size: large;
   margin-left: 25px;
+  max-width: 500px;
 }
 
 .curpage {
@@ -92,7 +93,7 @@ max-height: 398px;
     font-size: large;
 }
 
-#infobody {
+#infobody, #bookslist {
   background-color: rgba(241, 241, 241, 0.7);
   padding: 50px 50px 50px 15px;
   padding-left: 15px;
