@@ -65,6 +65,7 @@ max-height: 398px;
   font-size: large;
   margin-left: 25px;
   max-width: 500px;
+  margin-right: 25px;
 }
 
 .curpage {
@@ -97,9 +98,17 @@ max-height: 398px;
   background-color: rgba(241, 241, 241, 0.7);
   padding: 50px 50px 50px 15px;
   padding-left: 15px;
-  width: max-content;
   margin-left: 15px;
   border-radius: 10px;
+}
+
+#infobody {
+  width: max-content;
+}
+
+#bookslist {
+  width: 900px;
+  margin-right: 15px;
 }
 
 #aboutinfo {
