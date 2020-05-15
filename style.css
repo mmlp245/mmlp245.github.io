@@ -76,6 +76,10 @@ max-height: 398px;
   margin-top:5px;
 }
 
+.booktitle {
+  font-size: x-large;
+}
+
 #menu {
     font-size: 25px;
     margin-bottom: 35px;
@@ -124,6 +128,22 @@ max-height: 398px;
     margin-left: 25px;
 }
 
+@media (max-width: 965px) {
+  #aboutinfo {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 830px) {
+  #aboutinfo {
+    margin: 10px 15px 5px 25px;
+    float: none;
+  }
+  #aboutimg {
+      float: none;
+  }
+}
+
 #profile {
   overflow: auto;
 }
@@ -135,6 +155,7 @@ max-height: 398px;
 #aboutlinks > a {
     display: block;
     margin-left: 20px;
+    width: max-content;
 }
 
  /* Style inputs with type="text", select elements and textareas */
