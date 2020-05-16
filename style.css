@@ -68,6 +68,13 @@ max-height: 398px;
   margin-right: 25px;
 }
 
+@media (max-width: 767px) {
+  .blurb {
+    display: block;
+    position: initial;
+  }
+}
+
 .curpage {
     font-weight: bold;
 }
