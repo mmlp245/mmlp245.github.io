@@ -105,7 +105,7 @@ max-height: 398px;
     font-size: large;
 }
 
-#infobody, #bookslist {
+#infobody, #bookslist, #storybody {
   background-color: rgba(241, 241, 241, 0.7);
   padding: 50px 50px 0px 15px;
   margin-left: 15px;
