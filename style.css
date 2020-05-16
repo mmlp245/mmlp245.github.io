@@ -107,7 +107,7 @@ max-height: 398px;
 
 #infobody, #bookslist, #storybody {
   background-color: rgba(241, 241, 241, 0.7);
-  padding: 50px 50px 0px 15px;
+  padding: 50px 50px 50px 15px;
   margin-left: 15px;
   border-radius: 10px;
   margin-bottom: 25px;
@@ -137,10 +137,22 @@ max-height: 398px;
 
 #storybody {
   font-size: x-large;
+  width: max-content;
 }
 
 #reapingtext {
   display: inline-block;
+}
+
+@media (max-width: 750px) {
+  #storybody
+  {
+    width: auto;
+    margin-right: 10px;
+  }
+  #reapingtext {
+      display: block;
+  }
 }
 
 .storytext {
