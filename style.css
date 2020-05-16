@@ -175,6 +175,7 @@ max-height: 398px;
     display: block;
     margin-left: 20px;
     width: max-content;
+    font-size: 18px;
 }
 
  /* Style inputs with type="text", select elements and textareas */
