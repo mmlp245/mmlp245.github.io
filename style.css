@@ -138,6 +138,7 @@ max-height: 398px;
 #storybody {
   font-size: x-large;
   width: max-content;
+  padding-top: 25px;
 }
 
 #reapingtext {
@@ -152,6 +153,7 @@ max-height: 398px;
   }
   #reapingtext {
       display: block;
+      margin-bottom: 20px;
   }
 }
 
