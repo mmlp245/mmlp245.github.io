@@ -96,6 +96,10 @@ max-height: 398px;
     color: #e6e6e6;
 }
 
+#aboutmenu {
+  margin-right: 0;
+}
+
 #introtext, #homeimg, #booksbody {
     text-align: center;
     font-size: large;
