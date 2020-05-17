@@ -68,6 +68,10 @@ max-height: 398px;
   .blurb {
     display: block;
     position: initial;
+    margin-bottom: 40px;
+  }
+  .book .image {
+    padding-left: 0;
   }
 }
 
