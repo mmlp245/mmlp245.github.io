@@ -36,10 +36,6 @@ max-height: 398px;
     max-height: 385px;
 }
 
-#profileimg {
-  max-height: 250px;
-}
-
 .book .image {
   padding: 0 30px 30px 30px;
 }
@@ -113,13 +109,36 @@ max-height: 398px;
   margin-bottom: 25px;
 }
 
+#profileimg {
+  max-height: 250px;
+}
+
 #infobody {
   width: max-content;
+}
+
+@media (max-width: 552px) {
+  #infobody {
+    width: auto;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+#profileimg {
+    max-height: 225px;
+  }
 }
 
 #bookslist {
   width: 900px;
   margin-right: 15px;
+}
+
+@media (max-width: 1000px) {
+  #bookslist {
+    width: auto;
+  }
 }
 
 #aboutinfo {
@@ -145,6 +164,11 @@ max-height: 398px;
   display: inline-block;
 }
 
+#awardimg {
+  max-height: 150px;
+  float: right;
+}
+
 @media (max-width: 750px) {
   #storybody
   {
@@ -154,6 +178,9 @@ max-height: 398px;
   #reapingtext {
       display: block;
       margin-bottom: 20px;
+  }
+  #awardimg {
+    float: none;
   }
 }
 
